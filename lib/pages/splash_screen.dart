@@ -4,7 +4,7 @@ import 'dart:async';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
-  static const int splashDurationSeconds = 3;
+  static const int splashDurationSeconds = 0;
 
   void _startTimerAndNavigate(BuildContext context) {
     Timer(const Duration(seconds: splashDurationSeconds), () {
