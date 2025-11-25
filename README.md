@@ -1,16 +1,10 @@
-# dart_level_up
+Dart Level Up 🚀
+A simple Flutter project created to help you practice and improve your Dart skills in six levels through clean UI, reusable widgets, and structured learning examples.
 
-A new Flutter project.
+🔧 What’s Inside
 
-## Getting Started
+Flutter Screens: Small lessons, UI examples, and practical demos
 
-This project is a starting point for a Flutter application.
+Reusable Widgets: Clean components you can plug into any app
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dart Practice: Functions, classes, and logic to level up your skills
