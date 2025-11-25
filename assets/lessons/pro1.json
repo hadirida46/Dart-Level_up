@@ -1,0 +1,12 @@
+{
+  "title": "Pro Lesson 1: OOP – Classes and Objects",
+  "paragraph": "Dart is an object-oriented language where everything is an object. A class defines the blueprint of an object, containing fields and methods. Objects are created using constructors, and you can define multiple constructors, including named constructors. Dart also supports encapsulation using private fields, inheritance for extending functionality, and overriding methods to change behavior in subclasses.",
+  "question": "Which keyword is used to create a subclass in Dart?",
+  "options": [
+    "extends",
+    "inherits",
+    "using",
+    "implements"
+  ],
+  "answer": 0
+}

@@ -4,7 +4,7 @@ import 'dart:async';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
-  static const int splashDurationSeconds = 0;
+  static const int splashDurationSeconds = 3;
 
   void _startTimerAndNavigate(BuildContext context) {
     Timer(const Duration(seconds: splashDurationSeconds), () {
@@ -27,11 +27,19 @@ class SplashScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image(
-              image: AssetImage('assets/images/dart_logo.png'),
-              width: 300,
-              height: 300,
+              image: AssetImage('assets/images/logo.png'),
+              width: 130,
+              height: 130,
             ),
             SizedBox(height: 24),
+            const Text(
+              "Dart Level-Up",
+              style: TextStyle(
+                fontWeight: FontWeight.w700,
+                fontSize: 40,
+                color: Colors.white,
+              ),
+            ),
           ],
         ),
       ),

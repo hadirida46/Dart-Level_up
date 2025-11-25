@@ -1,0 +1,12 @@
+{
+  "title": "Beginner Lesson 2: Variables & Data Types",
+  "paragraph": "In Dart, variables are used to store data. Every variable has a type that tells the compiler what kind of data it holds. Dart supports various data types including int, double, String, bool, and List. You can declare variables using the var keyword, which allows Dart to infer the type automatically. Constants can be declared using the final or const keywords, with const meaning compile-time constant and final meaning assigned once at runtime.",
+  "question": "Which keyword allows Dart to automatically infer the type of a variable?",
+  "options": [
+    "auto",
+    "var",
+    "let",
+    "dynamic"
+  ],
+  "answer": 1
+}

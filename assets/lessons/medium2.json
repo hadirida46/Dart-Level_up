@@ -1,0 +1,12 @@
+{
+  "title": "Medium Lesson 2: Lists and Maps",
+  "paragraph": "Lists and Maps are two of the most commonly used collections in Dart. A List is an ordered collection of items, accessible by index. Maps, on the other hand, store data in key-value pairs. Dart supports both growable and fixed-length lists. Maps allow storing and retrieving values efficiently using keys instead of numeric indices.",
+  "question": "Which collection stores data in key-value pairs?",
+  "options": [
+    "List",
+    "Map",
+    "Set",
+    "Tuple"
+  ],
+  "answer": 1
+}

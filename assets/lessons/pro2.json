@@ -1,0 +1,12 @@
+{
+  "title": "Pro Lesson 2: Asynchronous Programming (Future & async/await)",
+  "paragraph": "Asynchronous programming in Dart allows tasks to run without blocking the main thread. A Future represents a value that will be available later. The async keyword lets you mark a function as asynchronous, and await pauses execution until a Future completes. This makes asynchronous code easier to read compared to callbacks. Streams are used when receiving multiple asynchronous values over time.",
+  "question": "What keyword is used to pause execution until a Future is completed?",
+  "options": [
+    "wait",
+    "stop",
+    "await",
+    "pause"
+  ],
+  "answer": 2
+}

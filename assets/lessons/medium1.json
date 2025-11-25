@@ -1,0 +1,12 @@
+{
+  "title": "Medium Lesson 1: Functions in Dart",
+  "paragraph": "Functions in Dart allow you to organize code into reusable blocks. A function can take parameters and return a value. Dart also supports optional parameters, named parameters, and arrow functions for short syntax. Named parameters make your function calls more readable, while optional parameters allow you to call a function with fewer arguments.",
+  "question": "Which symbol is used to create a short 'arrow function' in Dart?",
+  "options": [
+    "==",
+    "=>",
+    "->",
+    "::"
+  ],
+  "answer": 1
+}

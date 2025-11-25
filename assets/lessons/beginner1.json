@@ -1,0 +1,13 @@
+{
+  "title": "Beginner 1",
+  "paragraph": "Dart is an object-oriented language created by Google. It is used to build high-performance apps with Flutter.",
+
+  "question": "What is Dart mainly used for?",
+  "options": [
+    "Web Servers",
+    "Game Engines",
+    "Flutter Apps",
+    "Databases"
+  ],
+  "answer": 2
+}

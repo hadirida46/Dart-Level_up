@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '/widgets/lesson_card.dart';
+import 'lesson_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -15,30 +16,32 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.grey[200],
 
       appBar: PreferredSize(
-        preferredSize: const Size.fromHeight(120),
+        preferredSize: const Size.fromHeight(100),
         child: AppBar(
           backgroundColor: const Color(0xFF0175C2),
-          elevation: 0,
+          elevation: 4,
           shape: const RoundedRectangleBorder(
             borderRadius: BorderRadius.only(
-              bottomLeft: Radius.circular(40),
-              bottomRight: Radius.circular(40),
+              bottomLeft: Radius.circular(30),
+              bottomRight: Radius.circular(30),
             ),
           ),
           centerTitle: true,
           title: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisSize: MainAxisSize.min,
             children: [
               Image.asset(
-                'assets/images/dart_logo.png',
-                height: 50,
+                  'assets/images/logo.png',
+                  height: 40,
               ),
+
               const SizedBox(width: 10),
               const Text(
-                "Level-Up",
+                "Dart Level-Up",
                 style: TextStyle(
                   fontWeight: FontWeight.w700,
-                  fontSize: 55,
+                  fontSize: 40,
+                  color: Colors.white,
                 ),
               ),
             ],
@@ -59,15 +62,15 @@ class _HomePageState extends State<HomePage> {
 
             LessonCard(
               title: "Beginner 1",
-              subtitle: "Introduction to Dart",
+              subtitle: "What is Dart mainly used for?",
               icon: Icons.star,
               onTap: () {
-               // Navigator.push(
-                 // context,
-                 // MaterialPageRoute(
-                  //  builder: (context) => LessonPage(title: "Beginner 1"),
-                  //),
-               // );
+               Navigator.push(
+                 context,
+                 MaterialPageRoute(
+                    builder: (context) => const LessonPage(fileName: "beginner1.json"),
+                  ),
+                );
               },
             ),
             const SizedBox(height: 8),
@@ -77,12 +80,12 @@ class _HomePageState extends State<HomePage> {
               subtitle: "Variables and Data Types",
               icon: Icons.star_border,
               onTap: () {
-             //   Navigator.push(
-                 // context,
-                  //MaterialPageRoute(
-                   // builder: (context) => LessonPage(title: "Beginner 2"),
-                  //),
-             //   );
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const LessonPage(fileName: "beginner2.json"),
+                  ),
+               );
               },
             ),
             const SizedBox(height: 20),
@@ -94,30 +97,30 @@ class _HomePageState extends State<HomePage> {
 
             LessonCard(
               title: "Medium 1",
-              subtitle: "Introduction to Dart",
+              subtitle: "Functions in Dart",
               icon: Icons.star,
               onTap: () {
-                // Navigator.push(
-                // context,
-                // MaterialPageRoute(
-                //  builder: (context) => LessonPage(title: "Beginner 1"),
-                //),
-                // );
+                 Navigator.push(
+                context,
+                 MaterialPageRoute(
+                   builder: (context) => const LessonPage(fileName: "medium1.json"),
+                ),
+                 );
               },
             ),
             const SizedBox(height: 8),
 
             LessonCard(
               title: "Medium 2",
-              subtitle: "Variables and Data Types",
+              subtitle: "Which collection stores data in key-value pairs?",
               icon: Icons.star_border,
               onTap: () {
-                //   Navigator.push(
-                // context,
-                //MaterialPageRoute(
-                // builder: (context) => LessonPage(title: "Beginner 2"),
-                //),
-                //   );
+                   Navigator.push(
+                 context,
+                MaterialPageRoute(
+                  builder: (context) => const LessonPage(fileName: "medium2.json"),
+                ),
+                   );
               },
             ),
             const SizedBox(height: 20),
@@ -129,30 +132,30 @@ class _HomePageState extends State<HomePage> {
 
             LessonCard(
               title: "pro 1",
-              subtitle: "Introduction to Dart",
+              subtitle: "OOP – Classes and Objects",
               icon: Icons.star,
               onTap: () {
-                // Navigator.push(
-                // context,
-                // MaterialPageRoute(
-                //  builder: (context) => LessonPage(title: "Beginner 1"),
-                //),
-                // );
+                Navigator.push(
+                 context,
+                 MaterialPageRoute(
+                   builder: (context) => const LessonPage(fileName: "pro1.json"),
+                ),
+                 );
               },
             ),
             const SizedBox(height: 8),
 
             LessonCard(
               title: "Pro 2",
-              subtitle: "Variables and Data Types",
+              subtitle: "Asynchronous Programming",
               icon: Icons.star_border,
               onTap: () {
-                //   Navigator.push(
-                // context,
-                //MaterialPageRoute(
-                // builder: (context) => LessonPage(title: "Beginner 2"),
-                //),
-                //   );
+                  Navigator.push(
+                 context,
+                MaterialPageRoute(
+                  builder: (context) => const LessonPage(fileName: "pro2.json"),
+                ),
+                   );
               },
             ),
           ],
